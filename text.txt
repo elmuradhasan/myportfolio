@@ -1,0 +1,12 @@
+10 termin
+sentiment analiz
+masin telimi
+nezaret olunan telim 
+support vektor machine
+hibrid yanasma 
+naive bayes
+klasifikasiya 
+reqresiya
+tebbi dil emali
+big data
+sosial sebeke
