@@ -33,6 +33,16 @@
     />
   </head>
   <body>
+    <div class="fullscreen_menu">
+         <i class="fa-solid fa-xmark"></i>
+         <div class="mobils_item_div">
+          <a href="#">Home</a>
+         <a href="#about">About</a>
+         <a href="#services">Services</a>
+         <a href="#portfolio">Portfolio</a>
+         <a href="#contact">Contact</a>
+         </div>
+    </div>
     <header>
       <div class="center">
         <div class="header_menu_main floating full_w">
@@ -46,6 +56,7 @@
       </div>
     </header>
     <main>
+      
       <section>
         <div class="first_s full_w floating">
         <div class="center">
@@ -425,6 +436,17 @@
         e.preventDefault();
         $("html, body").animate({ scrollTop: 0 }, "300");
       });
+     
+    $('.mobile_icon').on('click', function(){
+       // $this.classList.add('visible-menu-out');
+       $(".fullscreen_menu").addClass("show");
+      $(".fa-xmark").removeClass("show");
+           
+    });
+    $('.fa-xmark').on('click', function(){
+       // $this.classList.add('visible-menu-out');
+       $(".fullscreen_menu").removeClass("show");           
+    });
     </script>
   </body>
 </html>

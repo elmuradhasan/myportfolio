@@ -195,11 +195,41 @@
 .content span{
   font-size: 18px;
 }
+.col:nth-child(2n){
+  margin-right: 0px;
+}
+.skill:nth-child(2n){
+  margin-right: 0px;
+}
+}
+@media (max-width:580px) {
+  .about_white_div {
+    margin-left:-100%;
+  }
+  .main_about_image {
+    width: 100%;
+  }
+  .private_info {
+    margin-top: 0px;
+  }
+  .footer_menu_main {
+    flex-direction: column;
+  }
+  .footer_comp_2 {
+    width: 100%;
+}
+.footer_comp_2 form{
+  width: 100%;
+}
+.contact_companemtone {
+  width: 80%;
+}
+
 }
 @media (max-width:550px) {
-
   .row{
-   justify-content: center;
+   align-items: center;
+   flex-direction: column;
    }
    .row .col .skill {
     width: 220px;
@@ -212,4 +242,169 @@
     font-size: 16px;
     padding: 10px 15px;
   }
+  .row_service_span p {
+    font-size: 14px;
+}
+.row_service_span h3 {
+  margin-bottom: 0px;
+}
+.row_service span {
+  margin-top: 5px;
+}
+.services_main{
+  padding: 100px 50px;
+}
+.item_service{
+  width:420px;
+}
+
+.about_white_div p{
+  font-size: 16px;
+  text-align: left;
+}
+.auto_text_sub b {
+  font-size: 27px;
+}
+.col:nth-child(n){
+  margin-right: 0px;
+}
+.skill:nth-child(n){
+  margin-right: 0px;
+}
+}
+@media (max-width:465px) {
+
+   .row .col .skill {
+    width: 180px;
+    height: 180px;
+  }
+  .private_info span, .education span {
+    font-size: 12px;
+}
+.contact_companemtone h2 {
+  font-size: 32px;
+}
+.contact_companemtone p,
+.contact_companemtone a {
+  font-size: 14px;
+}
+  .content span{
+    font-size: 20px;
+  }
+  .but_div a{
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+  .row_service i {
+    font-size: 26px;
+}
+.item_service{
+  height: 280px;
+}
+  .row_service_span p {
+    font-size: 12px;
+}
+.animate_write p,
+.row_service_span p,
+.about_white_div p{
+  font-size: 12px;
+}
+
+.services_main{
+  padding: 100px 30px;
+}
+.item_service{
+  width:380px;
+}
+.myhpoto {
+  margin-top: 30px;
+  width: 320px;
+  height: 400px;
+}
+.auto_text_sub b {
+  font-size: 27px;
+}
+.private_info {
+  padding: 30px 0px;
+}
+
+}
+@media (max-width:365px) {
+
+  .row .col .skill {
+   width: 170px;
+   height: 170px;
+ }
+ .private_info span, .education span {
+   font-size: 10px;
+}
+.contact_companemtone h2 {
+ font-size: 28px;
+}
+.contact_companemtone p,
+.contact_companemtone a {
+ font-size: 12px;
+}
+ .content span{
+   font-size: 18px;
+ }
+ .but_div a{
+   font-size: 12px;
+   padding: 10px 12px;
+ }
+ .row_service i {
+   font-size: 24px;
+}
+.item_service{
+ height: 260px;
+ width: 300px;
+}
+ .row_service_span p {
+   font-size: 10px;
+}
+.animate_write p,
+.row_service_span p,
+.about_white_div p{
+ font-size: 10px;
+}
+
+.services_main{
+ padding: 100px 20px;
+}
+
+.myhpoto {
+ margin-top: 30px;
+ width: 300px;
+ height: 360px;
+}
+.auto_text_sub b {
+ font-size: 24px;
+}
+.private_info {
+ padding: 30px 0px;
+}
+.swiper-slide img {
+  width: 300px !important;
+  height: 200px !important;
+  object-fit: contain;
+}
+.swiper-slide {
+  background-size: cover !important;
+  width: 300px !important;
+  height: 200px !important;
+}
+.about_white_div h2,
+.services_main h2,
+.portfolio_main h2
+
+{
+   font-size: 32px;
+}
+.row_service_span h3{
+  font-size: 18px;
+}
+.footer_comp_2 form button{
+  padding: 10px 15px;
+  font-size: 12px;
+}
 }
