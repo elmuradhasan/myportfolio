@@ -13,6 +13,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -27,9 +28,9 @@
       rel="stylesheet"
     />
     <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <header>
@@ -41,154 +42,210 @@
           <a href="#portfolio">Portfolio</a>
           <a href="#contact">Contact</a>
         </div>
+        <i class="fa-solid fa-bars mobile_icon"></i>
       </div>
     </header>
-    <section class="first_s flexr">
-      <div class="center">
-        <div class="onesection floating full_w flexr">
-          <div class="animate_write floating flex">
-            <h1 class="auto_text_sub">
-              <b>Hello, I'm Elmurad Hasanov</b> <span class="auto_text"><br>Web Developer</span>
-            </h1>
-            <p>
-              I have been working as a Web developer for 2 years now. If you
-              want to succeed in your work, please apply. Also, group and
-              individual lessons are organized. So get in touch now
-            </p>
-            <div class="but_div flexr full_w">
-               <a class="more" href="./images/ElmuradHasanov.pdf" download="ElmuradHasanov">Download Cv</a>
-              <a><i class="fa-solid fa-user"></i>Contact me</a>
-            </div>
-          </div>
-          <img src="./images/rs.jpeg" alt="myhpoto" class="myhpoto" />
-        </div>
-      </div>
-    </section>
-    <section id="about">
-      <div class="about_me_div floating full_w">
+    <main>
+      <section>
+        <div class="first_s full_w floating">
         <div class="center">
-          <div class="main_about_image_div floating full_w flexr">
-            <img
-              src="./images/about.png"
-              alt="about"
-              class="main_about_image"
-            />
-            <div class="about_white_div">
-              <h2><span>About </span>me</h2>
-              <p>
-                For instance, whenever I go back to the guest house during the
-                morning to copy out the contract, these gentlemen are always
-                still sitting there eating their breakfasts. I ought to just try
-                that with my boss; I'd get kicked out on the spot. <br /><br />
-                But who knows, maybe that would be the best thing for me. He'd
-                fall right off his desk! And it's a funny sort of business to be
-                sitting up there at your desk, talking down at your
-                subordinates.
-              </p>
-              <div class="private_info flexr">
-                <p class="flex">Name <span>Elmurad Qasanov</span></p>
-                <p class="flex">Phone <span>0514464442</span></p>
-                <p class="flex">Country <span>Azerbaijan</span></p>
-                <p class="flex">Email <span>hsnlimurad540@gmail.com</span></p>
+            <div class="onesection floating full_w flexr">
+              <div class="animate_write floating flex">
+                <h1 class="auto_text_sub">
+                  <b>Hello, I'm Elmurad Hasanov</b>
+                  <span class="auto_text"><br />Web Developer</span>
+                </h1>
+                <p>
+                  I have been working as a Web developer for 2 years now. If you
+                  want to succeed in your work, please apply. Also, group and
+                  individual lessons are organized. So get in touch now
+                </p>
+                <div class="but_div flexr full_w">
+                  <a
+                    class="more"
+                    href="./images/ElmuradHasanov.pdf"
+                    download="ElmuradHasanov"
+                    >Download Cv</a
+                  >
+                  <a href="#contact"
+                    ><i class="fa-solid fa-user"></i>Contact me</a
+                  >
+                </div>
               </div>
-              <p class="flex education">
-                Education<span>Baku State University || AMEA</span>
-              </p>
-              <div class="social_icon flexr">
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+             <div class="floating overlay_main">
+              <img src="./images/rs.jpeg" alt="myhpoto" class="myhpoto" />
+              <div class="overlay">
+                <p>Contact me</p>
+                <a
+                href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fpeople%2FElmurad-H%25C9%2599s%25C9%2599nov%2F100036489602403"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="https://github.com/elmuradhasan/"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://az.linkedin.com/in/elmurad-hasanov-627220216?trk=people-guest_people_search-card"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              </div>
+             </div>
+            </div>
+            <a id="button"><i class="fa-solid fa-arrow-up"></i></a>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="about_me_div floating full_w">
+          <div class="center">
+            <div class="main_about_image_div floating full_w flexr">
+              <img
+                src="./images/about.png"
+                alt="about"
+                class="main_about_image"
+              />
+              <div class="about_white_div">
+                <h2><span>About </span>me</h2>
+                <p>
+                  For instance, whenever I go back to the guest house during the
+                  morning to copy out the contract, these gentlemen are always
+                  still sitting there eating their breakfasts. I ought to just
+                  try that with my boss; I'd get kicked out on the spot.
+                  <br /><br />
+                  <span class="also_dont">
+                    But who knows, maybe that would be the best thing for me. He'd
+                    fall right off his desk! And it's a funny sort of business to
+                    be sitting up there at your desk, talking down at your
+                    subordinates.
+                  </span>
+
+                </p>
+                <div class="private_info flexr">
+                  <p class="flex">Name <span>Elmurad Qasanov</span></p>
+                  <p class="flex">Phone <span>0514464442</span></p>
+                  <p class="flex">Country <span>Azerbaijan</span></p>
+                  <p class="flex">Email <span>hsnlimurad540@gmail.com</span></p>
+                </div>
+                <p class="flex education">
+                  Education<span>Baku State University || AMEA</span>
+                </p>
+                <div class="social_icon flexr">
+                  <a
+                  href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fpeople%2FElmurad-H%25C9%2599s%25C9%2599nov%2F100036489602403"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+                <a href="https://github.com/elmuradhasan/"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+                <a
+                  href="https://az.linkedin.com/in/elmurad-hasanov-627220216?trk=people-guest_people_search-card"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="services">
-      <div class="services_main floating full_w">
+      </section>
+      <section id="services">
+        <div class="services_main floating full_w">
           <div class="center">
-             <h2><span>Serv</span>ices</h2>
+            <h2><span>Serv</span>ices</h2>
             <div class="item_main_div_service floating full_w flexr">
               <div class="item_service">
-                 <div class="floating full_w flex row_service">
+                <div class="floating full_w flex row_service">
                   <i class="fa-solid fa-code"></i>
                   <span></span>
-                 </div>
-                 <div class="floating full_w flex row_service_span">
+                </div>
+                <div class="floating full_w flex row_service_span">
                   <h3>Web development</h3>
-                   <p>If you are an entrepreneur, you know that your success cannot depend on the opinions of others. Like the wind, opinions.</p>
-                 </div>
+                  <p>
+                    If you are an entrepreneur, you know that your success
+                    cannot depend on the opinions of others. Like the wind,
+                    opinions.
+                  </p>
+                </div>
               </div>
               <div class="item_service">
                 <div class="floating full_w flex row_service">
                   <i class="fa-solid fa-pen-nib"></i>
-                  <span></span>  
-                 </div>
-                 <div class="floating full_w flex row_service_span">
+                  <span></span>
+                </div>
+                <div class="floating full_w flex row_service_span">
                   <h3>Web design</h3>
-                   <p>It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.Lorem ipsum doler
+                  <p>
+                    It is not because things are difficult that we do not dare;
+                    it is because we do not dare that they are difficult.Lorem
+                    ipsum doler
                   </p>
-                 </div>
+                </div>
               </div>
               <div class="item_service">
                 <div class="floating full_w flex row_service">
                   <i class="fa-solid fa-mobile"></i>
-                   <span></span>
-                 </div>
-                 <div class="floating full_w flex row_service_span">
-                  <h3>Responsive Design</h3>  
-                   <p>Do you sometimes have the feeling that you’re running into the same obstacles over and over again? Many of my conflicts.</p>
-                 </div>
+                  <span></span>
+                </div>
+                <div class="floating full_w flex row_service_span">
+                  <h3>Responsive Design</h3>
+                  <p>
+                    Do you sometimes have the feeling that you’re running into
+                    the same obstacles over and over again? Many of my
+                    conflicts.
+                  </p>
+                </div>
               </div>
               <div class="item_service">
                 <div class="floating full_w flex row_service">
                   <i class="fa-solid fa-graduation-cap"></i>
                   <span></span>
-                 </div>
-                 <div class="floating full_w flex row_service_span">
-              <h3>Frontend lesson</h3>
-                   <p>Do you sometimes have the feeling that you’re running into the same obstacles over and over again? Many of my conflicts.</p>
-                 </div>
+                </div>
+                <div class="floating full_w flex row_service_span">
+                  <h3>Frontend lesson</h3>
+                  <p>
+                    Do you sometimes have the feeling that you’re running into
+                    the same obstacles over and over again? Many of my
+                    conflicts.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-      </div>
-    </section>
-    <section id="portfolio">
-      <div class="portfolio_main floating full_w">
+        </div>
+      </section>
+      <section id="portfolio">
+        <div class="portfolio_main floating full_w">
           <div class="center">
-             <h2><span>Portf</span>olio</h2>
-             <div class="swiper mySwiper">
+            <h2><span>Portf</span>olio</h2>
+            <div class="swiper mySwiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <a href="https://digitsell.netlify.app">
                     <img src="./images/port8.png" />
-                    </a>
+                  </a>
                 </div>
                 <div class="swiper-slide">
                   <a href="https://elmuradhasan.github.io/guysproject/">
                     <img src="./images/port5.png" />
-                    </a>
+                  </a>
                 </div>
                 <div class="swiper-slide">
                   <a href="https://mobileaz.netlify.app">
-                     <img src="./images/port2.png" />
-                     </a>
+                    <img src="./images/port2.png" />
+                  </a>
                 </div>
                 <div class="swiper-slide">
                   <a href="https://elmuradhasanli.netlify.app/">
-                     <img src="./images/port7.jpg" />
-                     </a>
+                    <img src="./images/port7.jpg" />
+                  </a>
                 </div>
                 <div class="swiper-slide">
                   <a href="https://evimaz.netlify.app">
                     <img src="./images/port3.png" />
-                    </a>
+                  </a>
                 </div>
                 <div class="swiper-slide">
                   <a href="https://elmuradhasan.github.io/groovin/">
                     <img src="./images/port4.png" />
-                    </a>
+                  </a>
                 </div>
                 <div class="swiper-slide">
                   <a href="https://surpriseaz.netlify.app">
@@ -199,123 +256,147 @@
                 <div class="swiper-slide">
                   <a href="https://kontaktimaz.netlify.app">
                     <img src="./images/port6.png" />
-                    </a>
+                  </a>
                 </div>
               </div>
               <div class="swiper-pagination"></div>
             </div>
           </div>
-      </div>
-    </section>
-    <section id="portfolio">
-      <div class="portfolio_main floating full_w">
+        </div>
+      </section>
+      <section id="portfolio">
+        <div class="portfolio_main floating full_w">
           <div class="center">
-             <h2><span>My Ski</span>lls</h2>
-               <div class="my_skill_main floating full_w">
-                    <div class="row">
-                      <div class="col">
-                          <div class="skill">
-                              <div class="content">
-                                  <span>90%</span>
-                                  <span>HTML</span>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col">
-                        <div class="skill">
-                            <div class="content">
-                                <span>90%</span>
-                                <span>CSS/SASS</span>
-                            </div>
-                        </div>
+            <h2><span>My Ski</span>lls</h2>
+            <div class="my_skill_main floating full_w">
+              <div class="row">
+                <div class="col">
+                  <div class="skill">
+                    <div class="content">
+                      <span>90%</span>
+                      <span>HTML</span>
                     </div>
-                    <div class="col">
-                      <div class="skill">
-                          <div class="content">
-                              <span>89%</span>
-                              <span>JavaScript</span>
-                          </div>
-                      </div>
                   </div>
-                      <div class="col">
-                          <div class="skill">
-                              <div class="content">
-                                  <span>83%</span>
-                                  <span>Jquery</span>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col">
-                          <div class="skill">
-                              <div class="content">
-                                  <span>87%</span>
-                                  <span>React JS</span>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col">
-                        <div class="skill">
-                            <div class="content">
-                                <span>75%</span>
-                                <span>TypeScript</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                      <div class="skill">
-                          <div class="content">
-                              <span>70%</span>
-                              <span>Angular Js</span>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col">
-                    <div class="skill">
-                        <div class="content">
-                            <span>50%</span>
-                            <span>Next JS</span>
-                        </div>
-                    </div>
                 </div>
+                <div class="col">
+                  <div class="skill">
+                    <div class="content">
+                      <span>90%</span>
+                      <span>CSS/SASS</span>
+                    </div>
                   </div>
-               </div>
+                </div>
+                <div class="col">
+                  <div class="skill">
+                    <div class="content">
+                      <span>89%</span>
+                      <span>JavaScript</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="skill">
+                    <div class="content">
+                      <span>83%</span>
+                      <span>Jquery</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="skill">
+                    <div class="content">
+                      <span>87%</span>
+                      <span>React JS</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="skill">
+                    <div class="content">
+                      <span>75%</span>
+                      <span>TypeScript</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="skill">
+                    <div class="content">
+                      <span>70%</span>
+                      <span>Angular Js</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="skill">
+                    <div class="content">
+                      <span>50%</span>
+                      <span>Next JS</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-      </div>
-    </section>
+        </div>
+      </section>
+    </main>
     <footer id="contact">
-           <div class="center">
-            <div class="footer_menu_main full_w floating flexr">
-              <div class="contact_companemtone flex">
-                <h2><span>Cont</span>act</h2>
-                <p>Xhatai, Ramiz Quliyev,
-                  Azerbaijan</p>
-                  <a href="#">hsnlimurad540@gmail.com</a>
-                  <a href="#">051-446-44-42</a>
-                  <p>
-                    Share
-                      <a href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fpeople%2FElmurad-H%25C9%2599s%25C9%2599nov%2F100036489602403"><i class="fa-brands fa-facebook-f"></i></a>
-                      <a href="https://github.com/elmuradhasan/"><i class="fa-brands fa-github"></i></a>
-                      <a href="https://az.linkedin.com/in/elmurad-hasanov-627220216?trk=people-guest_people_search-card"><i class="fa-brands fa-linkedin-in"></i></a>
-                  </p>
+      <div class="center">
+        <div class="footer_menu_main full_w floating flexr">
+          <div class="contact_companemtone flex">
+            <h2><span>Cont</span>act</h2>
+            <p>Xhatai, Ramiz Quliyev, Azerbaijan</p>
+            <a href="#">hsnlimurad540@gmail.com</a>
+            <a href="#">051-446-44-42</a>
+            <p>
+              Share
+              <a
+                href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fpeople%2FElmurad-H%25C9%2599s%25C9%2599nov%2F100036489602403"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="https://github.com/elmuradhasan/"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://az.linkedin.com/in/elmurad-hasanov-627220216?trk=people-guest_people_search-card"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </p>
+          </div>
+          <div class="footer_comp_2">
+            <form class="flex">
+              <div class="twoinput floating full_w flexr">
+                <input
+                  type="text"
+                  name="text"
+                  placeholder="Name here*"
+                  required
+                />
+                <input
+                  type="email"
+                  name="text"
+                  placeholder="Email here*"
+                  required
+                />
               </div>
-              <div class="footer_comp_2">
-                <form class="flex">
-                 <div class="twoinput floating full_w flexr">
-                  <input type="text" name="text" placeholder="Name here*">
-                  <input type="email" name="text" placeholder="Email here*">
-                 </div>
-                  <textarea name="" placeholder="Message here"></textarea>
-                  <button >Send Message <i class="fa-solid fa-arrow-right"></i></button>
-                </form>
-              </div>
-           </div>
+              <textarea name="" placeholder="Message here"></textarea>
+              <button>
+                Send Message <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </form>
+          </div>
+        </div>
       </div>
     </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
-
-  
       var swiper = new Swiper(".mySwiper", {
         effect: "coverflow",
         grabCursor: true,
@@ -324,12 +405,25 @@
         coverflowEffect: {
           rotate: 50,
           stretch: 0,
-          depth:100,
-          modifier: 1
+          depth: 100,
+          modifier: 2,
         },
         pagination: {
           el: ".swiper-pagination",
         },
+      });
+      var btn = $("#button");
+      $(window).scroll(function () {
+        if ($(window).scrollTop() > 300) {
+          btn.addClass("show");
+        } else {
+          btn.removeClass("show");
+        }
+      });
+
+      btn.on("click", function (e) {
+        e.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "300");
       });
     </script>
   </body>
