@@ -15,7 +15,7 @@
   }
 }
 @media (max-width:1260px) {
-  .myhpoto {
+  .myhpoto,.overlay{
     width: 440px;
     height: 520px;
   }
@@ -33,7 +33,7 @@
   .col,.content{
     width: 180px;
   }
-  .myhpoto {
+  .myhpoto .overlay{
     width: 420px;
     height: 480px;
   }
@@ -71,7 +71,7 @@
 
 
 @media (max-width:1000px) {
-  .myhpoto {
+  .myhpoto,.overlay {
     width: 400px;
     height: 440px;
   }
@@ -100,7 +100,7 @@
   .first_s{
     height: auto;
   }
-  .myhpoto{
+  .myhpoto,.overlay{
     width: 450px;
     margin-left: 0px;
     object-fit: cover;
@@ -165,7 +165,7 @@
       z-index: 1000;
       top: 25px;
     }
-    .myhpoto{
+    .myhpoto,.overlay{
       margin-top: 30px;
       width: 380px;
       height: 500px;
@@ -316,7 +316,7 @@
 .item_service{
   width:380px;
 }
-.myhpoto {
+.myhpoto,.overlay {
   margin-top: 30px;
   width: 320px;
   height: 400px;
@@ -372,7 +372,7 @@
  padding: 100px 20px;
 }
 
-.myhpoto {
+.myhpoto,.overlay {
  margin-top: 30px;
  width: 300px;
  height: 360px;
