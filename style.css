@@ -114,7 +114,15 @@ line-height: 166.9%;
     transition: all .3s;
     border-radius: 10px;
     margin-left: 30px;
-    transition-timing-function: cubic-bezier();
+    animation: names 3s  1 alternate ease;
+    transition-timing-function: ease-in;
+}
+@keyframes names {
+  0%   {transform: rotateY(90deg)}
+  25%  {transform: rotateY(180deg)}
+  50%  {transform: rotateX(270deg)}
+  100% {transform: rotateX(360deg)}
+  
 }
 .overlay{
   position:absolute;
